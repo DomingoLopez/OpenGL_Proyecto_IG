@@ -1,0 +1,29 @@
+Práctica 5 IG. Domingo Jesús López Pacheco. 
+
+
+TECLA H -> Muestra la araña
+TECLA F5 -> Inicia el movimiento de las patas de la araña (NO AUTOMATICO)
+
+TECLA F6 -> Sube el aguijón hasta un límite impuesto
+TECLA F7 -> Baja el aguijón hasta un límite impuesto
+
+TECLA F8 -> Comienza la animación (AUTOMÁTICA) usando la función IDLE.
+TECLA F9 -> Detiene la animación automática
+
+TECLA F10 -> Abre las pinzas de la boca hasta un límite impuesto
+TECLA F11 -> Cierra las pinzas de la bocas hasta un límite impuesto
+
+
+A continuación se muetran teclas de control adicionales para la práctica 5 teniendo seleccionada la araña (TECLA H)
+
+TECLA 3 : Modo selección de partes de la araña. Click izquierdo para seleccionar/deseleccionar partes de la araña
+TECLA 5 : Modo selección de triángulos del cuerpo central de la araña. Click izquierdo para seleccionar/deseleccionar triángulos.
+
+Éstos modos anteriores los he puesto únicamente cuando estamos en vista en perspectiva. Se deshabilitan al cambiar el tipo de proyección.
+
+TECLA 6 : Vista de Planta. (GlOrtho(...))
+TECLA 7 : Vista Alzado. (GlOrtho(...))
+TECLA 8 : Vuelta a vista en perspectiva . (GlFrustum(...))
+
+Click derecho y arrastrar: Giro de la cámara siguiendo el ratón.
+Rueda del ratón: Zoom.

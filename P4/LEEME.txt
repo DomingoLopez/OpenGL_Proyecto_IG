@@ -1,0 +1,64 @@
+Práctica 4 IG. Domingo Jesús López Pacheco. 
+
+Instrucciones:
+Además de las piezas ya conocidas (cubo, cono, cilindro, esfera), se han añadido dos piezas más de cara a poder realizar el objeto animado, en mi caso un insecto arácnido imaginario. Dichas piezas son un Trapecio para la cabeza, y un pseudo-cono inclinado para las pinzas. 
+
+En cuanto a la iluminación, se disponde de dos luces de base y una tercera activable. Además se puede elegir entre 3 materiales distintos.
+
+OBJETOS DISPONIBLES:
+
+P : PIRAMIDE
+E : ESFERA
+C : CUBO
+O : OBJETO_PLY //Beethoven
+R : ROTACION //Peón
+A : ARTICULADO //Tanque
+H : SPIDER // Añara -> Éste es mi objeto articulado
+
+
+MODOS DISPONIBLES
+
+Q : exit(0); //Salimos del programa
+1 : POINTS //Modo puntos
+2 : EDGES //Modo líneas
+3 : SOLID //Modo sólido
+4 : SOLID_CHESS //Modo sólido ajedrez
+5 : SOLID_ILUMINATED_FLAT //Modo iluminación plana (incluye luces)
+6 : SOLID_ILUMINATED_GOURAUD //Modo iluminación suave gouraud (incluy luces)
+
+TECLAS DE MANIPULACIÓN
+
+AvPag -> Zoom +
+RePag -> Zoom -
+
+Teclas de control de visualización (Las típicas flechas del teclado)
+
+
+TECLAS ESPECIALES PARA LA ARAÑA
+
+TECLA H -> Muestra la araña
+TECLA F5 -> Inicia el movimiento de las patas de la araña (NO AUTOMATICO)
+
+TECLA F6 -> Sube el aguijón hasta un límite impuesto
+TECLA F7 -> Baja el aguijón hasta un límite impuesto
+
+TECLA F8 -> Comienza la animación (AUTOMÁTICA) usando la función IDLE.
+TECLA F9 -> Detiene la animación automática
+
+TECLA F10 -> Abre las pinzas de la boca hasta un límite impuesto
+TECLA F11 -> Cierra las pinzas de la bocas hasta un límite impuesto
+
+
+
+
+TECLAS ESPECIALES PARA LA ILUMINACIÓN (LOS MODOS 5 Ó 6 DEBEN ESTAR ACTIVOS)
+
+TECLA F1 -> Alterna entre 3 materiales distintos para los objetos
+TECLA F2 -> Con la Esfera como objeto actual, cambia entre el cálculo de normales aproximadas y exactas. Es difícil observarlo debido a que el cálculo exacto difiere en unos decimales del aproximado, pero el cálculo se realiza correctamente. 
+TECLA F3 -> Activa/Desactiva una tercera luz de otro color.
+TECLA F4 -> Hace girar dicha luz sobre el eje X. 
+
+Destacar que la TECLA F8 activa la animación. Si estamos en modo de iluminación plana o suave, hará girar una de las luces que estén habilitadas. 
+
+
+
