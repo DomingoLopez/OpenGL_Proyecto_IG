@@ -13,7 +13,7 @@ C : CUBO
 O : OBJETO_PLY //Beethoven
 R : ROTACION //Peón
 A : ARTICULADO //Tanque
-H : SPIDER // Añara -> Éste es mi objeto articulado
+H : SPIDER //  Éste es mi objeto articulado
 
 
 MODOS DISPONIBLES
